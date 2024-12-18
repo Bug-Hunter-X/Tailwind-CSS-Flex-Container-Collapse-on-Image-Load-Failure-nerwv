@@ -1,0 +1,13 @@
+```html
+<div class="bg-gray-100 p-4">
+  <div class="flex items-center space-x-4">
+    <img src="/image.jpg" alt="Profile Picture" class="w-12 h-12 rounded-full">
+    <div>
+      <p class="text-lg font-medium">John Doe</p>
+      <p class="text-gray-600 text-sm">@johndoe</p>
+    </div>
+  </div>
+</div>
+```
+
+This code uses Tailwind CSS classes to style a simple profile card. However, if the image `/image.jpg` is not found, the layout might break because the `img` element will have zero width and height, causing the `flex` container to collapse unexpectedly.
